@@ -4,7 +4,7 @@
 	<input type="text" name="search" size="30" value="" autocomplete="off">
 	<input type="submit" value="ค้นหาข้อมูล"></center>
 </form>
-<font size ="5" ><center><b><u>แสดงข้อมูลรายละเอียดหลักสูตรระยะสั้น</b></u></center></font>
+<font size ="5" ><center><b><u>แสดงข้อมูล</b></u></center></font>
 <?php
 include_once('conn_course.php');
 $search = isset($_GET['search']) ? $_GET['search']:'';
